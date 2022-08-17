@@ -1,15 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="App-">Amitesh Rai</div>
+      </header>
+      <content className="App-content">
         <p>
           Hosting my Reactjs website with Github Pages.
         </p>
-      </header>
+        <p>Coming Soon</p>
+      </content>
+      <footer className="App-footer">Contacts</footer>
     </div>
   );
 }
